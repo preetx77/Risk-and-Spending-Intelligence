@@ -1,101 +1,101 @@
 user_id,date,amount,category,payment_type,merchant
-STU_2024_001,2024-01-26,102.35,Utilities,Cash,Electric Co
-STU_2024_001,2024-01-09,42.71,Entertainment,Digital Wallet,Movie Theater
-STU_2024_001,2024-01-10,24.86,Entertainment,Debit Card,Spotify
-STU_2024_001,2024-02-29,651.7,Rent,Credit Card,Apartment Management
-STU_2024_001,2024-03-01,30.19,Food & Dining,Cash,Starbucks
-STU_2024_001,2024-01-25,5.82,Health,Digital Wallet,Gym Membership
-STU_2024_001,2024-03-20,710.29,Rent,Credit Card,Apartment Management
-STU_2024_001,2024-01-22,58.39,Health,Cash,Student Health Center
-STU_2024_001,2024-02-19,641.44,Rent,Digital Wallet,Apartment Management
-STU_2024_001,2024-01-09,6.96,Health,Cash,Student Health Center
-STU_2024_001,2024-03-30,27.47,Personal Care,Credit Card,Sephora
-STU_2024_001,2024-03-13,32.5,Entertainment,Debit Card,Spotify
-STU_2024_001,2024-03-15,45.47,Entertainment,Debit Card,Spotify
-STU_2024_001,2024-03-15,1054.74,Rent,Credit Card,Dorm Fees
-STU_2024_001,2024-01-27,195.52,Academic Supplies,Credit Card,Amazon
-STU_2024_001,2024-01-10,1139.76,Rent,Digital Wallet,Dorm Fees
-STU_2024_001,2024-01-28,57.66,Personal Care,Debit Card,Barber Shop
-STU_2024_001,2024-01-20,49.09,Food & Dining,Cash,Local Pizza
-STU_2024_001,2024-02-22,38.9,Transportation,Digital Wallet,Gas Station
-STU_2024_001,2024-02-16,40.85,Food & Dining,Debit Card,Chipotle
-STU_2024_001,2024-01-02,35.85,Food & Dining,Digital Wallet,Local Pizza
-STU_2024_001,2024-03-07,18.04,Food & Dining,Cash,Chipotle
-STU_2024_001,2024-02-22,21.07,Transportation,Digital Wallet,City Transit
-STU_2024_001,2024-01-23,21.24,Transportation,Credit Card,Uber
-STU_2024_001,2024-03-10,29.16,Entertainment,Cash,Concert Tickets
-STU_2024_001,2024-03-03,812.45,Rent,Cash,Apartment Management
-STU_2024_001,2024-03-27,103.18,Utilities,Digital Wallet,Internet Provider
-STU_2024_001,2024-02-13,603.21,Rent,Credit Card,Apartment Management
-STU_2024_001,2024-01-19,35.85,Health,Credit Card,Gym Membership
-STU_2024_001,2024-03-25,1072.14,Rent,Debit Card,Apartment Management
-STU_2024_001,2024-03-19,580.97,Rent,Credit Card,Dorm Fees
-STU_2024_001,2024-01-26,49.09,Health,Debit Card,Gym Membership
-STU_2024_001,2024-02-24,56.22,Transportation,Digital Wallet,Bike Share
-STU_2024_001,2024-02-09,59.33,Entertainment,Digital Wallet,Movie Theater
-STU_2024_001,2024-01-19,39.61,Entertainment,Cash,Netflix
-STU_2024_001,2024-02-18,15.02,Transportation,Debit Card,City Transit
-STU_2024_001,2024-03-07,53.04,Utilities,Credit Card,Internet Provider
-STU_2024_001,2024-03-19,53.31,Personal Care,Cash,Target
-STU_2024_001,2024-01-30,79.65,Utilities,Debit Card,Electric Co
-STU_2024_001,2024-01-20,62.07,Academic Supplies,Digital Wallet,Amazon
-STU_2024_001,2024-02-15,9.9,Personal Care,Digital Wallet,Barber Shop
-STU_2024_001,2024-02-01,735.0,Rent,Digital Wallet,Apartment Management
-STU_2024_001,2024-01-22,21.83,Health,Cash,Gym Membership
-STU_2024_001,2024-03-09,28.77,Transportation,Debit Card,Uber
-STU_2024_001,2024-02-11,49.86,Food & Dining,Debit Card,Starbucks
-STU_2024_001,2024-01-08,85.97,Utilities,Debit Card,Electric Co
-STU_2024_001,2024-03-25,44.09,Personal Care,Debit Card,Sephora
-STU_2024_001,2024-01-01,43.22,Food & Dining,Cash,Local Pizza
-STU_2024_001,2024-01-03,30.72,Academic Supplies,Debit Card,University Bookstore
-STU_2024_001,2024-02-27,15.85,Transportation,Digital Wallet,Bike Share
-STU_2024_001,2024-03-24,140.88,Utilities,Debit Card,Water/Trash
-STU_2024_001,2024-01-25,7.18,Health,Cash,CVS Pharmacy
-STU_2024_001,2024-02-18,179.01,Academic Supplies,Digital Wallet,Amazon
-STU_2024_001,2024-01-05,41.39,Transportation,Digital Wallet,Gas Station
-STU_2024_001,2024-03-16,6.0,Food & Dining,Credit Card,Starbucks
-STU_2024_001,2024-01-30,46.33,Entertainment,Credit Card,Movie Theater
-STU_2024_001,2024-02-25,12.72,Entertainment,Digital Wallet,Movie Theater
-STU_2024_001,2024-03-24,538.81,Rent,Digital Wallet,Dorm Fees
-STU_2024_001,2024-02-21,50.77,Food & Dining,Cash,Starbucks
-STU_2024_001,2024-02-20,193.44,Academic Supplies,Digital Wallet,Amazon
-STU_2024_001,2024-02-19,10.71,Entertainment,Debit Card,Netflix
-STU_2024_001,2024-02-04,78.56,Utilities,Credit Card,Internet Provider
-STU_2024_001,2024-01-19,10.1,Personal Care,Credit Card,Sephora
-STU_2024_001,2024-03-10,9.11,Personal Care,Debit Card,Target
-STU_2024_001,2024-03-30,56.09,Transportation,Digital Wallet,Bike Share
-STU_2024_001,2024-01-01,26.49,Personal Care,Digital Wallet,Sephora
-STU_2024_001,2024-03-14,118.43,Academic Supplies,Debit Card,Local Stationery
-STU_2024_001,2024-03-23,41.59,Entertainment,Debit Card,Movie Theater
-STU_2024_001,2024-02-01,11.24,Food & Dining,Credit Card,Local Pizza
-STU_2024_001,2024-03-16,31.36,Food & Dining,Cash,Chipotle
-STU_2024_001,2024-03-06,41.32,Personal Care,Digital Wallet,Target
-STU_2024_001,2024-03-18,7.46,Entertainment,Digital Wallet,Concert Tickets
-STU_2024_001,2024-01-19,69.74,Utilities,Cash,Electric Co
-STU_2024_001,2024-01-18,17.67,Food & Dining,Credit Card,Campus Cafeteria
-STU_2024_001,2024-02-13,58.1,Entertainment,Digital Wallet,Concert Tickets
-STU_2024_001,2024-03-29,51.08,Personal Care,Debit Card,Sephora
-STU_2024_001,2024-02-25,71.93,Utilities,Cash,Water/Trash
-STU_2024_001,2024-03-23,8.61,Entertainment,Cash,Netflix
-STU_2024_001,2024-03-31,77.96,Utilities,Debit Card,Electric Co
-STU_2024_001,2024-02-26,124.82,Utilities,Credit Card,Water/Trash
-STU_2024_001,2024-02-02,19.55,Transportation,Debit Card,Gas Station
-STU_2024_001,2024-02-19,21.54,Transportation,Debit Card,Gas Station
-STU_2024_001,2024-01-28,124.65,Utilities,Debit Card,Internet Provider
-STU_2024_001,2024-02-11,19.86,Personal Care,Cash,Target
-STU_2024_001,2024-03-28,27.17,Personal Care,Digital Wallet,Target
-STU_2024_001,2024-01-29,120.01,Utilities,Digital Wallet,Water/Trash
-STU_2024_001,2024-01-16,11.83,Health,Credit Card,Gym Membership
-STU_2024_001,2024-03-03,19.92,Transportation,Credit Card,Gas Station
-STU_2024_001,2024-01-12,20.28,Entertainment,Debit Card,Netflix
-STU_2024_001,2024-01-04,55.68,Personal Care,Credit Card,Sephora
-STU_2024_001,2024-03-10,145.03,Academic Supplies,Cash,Local Stationery
-STU_2024_001,2024-01-03,40.86,Food & Dining,Cash,Chipotle
-STU_2024_001,2024-03-31,181.17,Academic Supplies,Debit Card,Amazon
-STU_2024_001,2024-03-11,24.32,Entertainment,Debit Card,Netflix
-STU_2024_001,2024-03-10,20.15,Food & Dining,Digital Wallet,Chipotle
-STU_2024_001,2024-01-29,823.78,Rent,Credit Card,Dorm Fees
-STU_2024_001,2024-02-09,20.61,Health,Digital Wallet,CVS Pharmacy
-STU_2024_001,2024-01-21,79.63,Utilities,Credit Card,Internet Provider
-STU_2024_001,2024-03-28,45.94,Food & Dining,Cash,Campus Cafeteria
-STU_2024_001,2024-03-07,800.85,Rent,Credit Card,Apartment Management
+STU_2024_001,2024-01-01,1200.0,Rent,Credit Card,Apartment Management
+STU_2024_001,2024-01-02,45.5,Food & Dining,Debit Card,Walmart
+STU_2024_001,2024-01-03,12.99,Entertainment,Digital Wallet,Netflix
+STU_2024_001,2024-01-04,25.0,Transportation,Cash,Uber
+STU_2024_001,2024-01-05,85.3,Utilities,Cash,Electric Company
+STU_2024_001,2024-01-06,35.67,Food & Dining,Cash,Restaurant
+STU_2024_001,2024-01-07,150.0,Health,Credit Card,Hospital
+STU_2024_001,2024-01-08,45.0,Personal Care,Debit Card,Pharmacy
+STU_2024_001,2024-01-09,89.99,Entertainment,Digital Wallet,Amazon Prime
+STU_2024_001,2024-01-10,23.5,Food & Dining,Cash,Starbucks
+STU_2024_001,2024-01-11,67.8,Academic Supplies,Debit Card,Bookstore
+STU_2024_001,2024-01-12,15.0,Transportation,Cash,Bus Pass
+STU_2024_001,2024-01-13,45.9,Food & Dining,Debit Card,Grocery Store
+STU_2024_001,2024-01-14,120.0,Utilities,Credit Card,Internet
+STU_2024_001,2024-01-15,25.0,Entertainment,Cash,Movie Theater
+STU_2024_001,2024-01-16,55.3,Food & Dining,Digital Wallet,Food Delivery
+STU_2024_001,2024-01-17,200.0,Clothing,Credit Card,Fashion Store
+STU_2024_001,2024-01-18,35.0,Personal Care,Cash,Beauty Store
+STU_2024_001,2024-01-19,45.0,Transportation,Debit Card,Gas Station
+STU_2024_001,2024-01-20,1200.0,Rent,Credit Card,Apartment Management
+STU_2024_002,2024-01-01,800.0,Rent,Debit Card,Dormitory
+STU_2024_002,2024-01-02,25.3,Food & Dining,Cash,Cafeteria
+STU_2024_002,2024-01-03,14.99,Entertainment,Digital Wallet,Spotify
+STU_2024_002,2024-01-04,10.0,Transportation,Cash,Subway
+STU_2024_002,2024-01-05,65.5,Utilities,Credit Card,Phone Bill
+STU_2024_002,2024-01-06,18.75,Food & Dining,Debit Card,Fast Food
+STU_2024_002,2024-01-07,50.0,Health,Digital Wallet,Gym Membership
+STU_2024_002,2024-01-08,28.9,Personal Care,Cash,Pharmacy
+STU_2024_002,2024-01-09,39.99,Entertainment,Credit Card,Disney+
+STU_2024_002,2024-01-10,12.5,Food & Dining,Cash,Coffee Shop
+STU_2024_002,2024-01-11,89.99,Academic Supplies,Debit Card,Calculator
+STU_2024_002,2024-01-12,25.0,Transportation,Cash,Taxi
+STU_2024_002,2024-01-13,32.4,Food & Dining,Digital Wallet,Grocery Store
+STU_2024_002,2024-01-14,45.0,Utilities,Debit Card,Water Bill
+STU_2024_002,2024-01-15,18.0,Entertainment,Cash,Game Store
+STU_2024_002,2024-01-16,28.6,Food & Dining,Cash,Restaurant
+STU_2024_002,2024-01-17,75.0,Clothing,Digital Wallet,Online Shopping
+STU_2024_002,2024-01-18,22.0,Personal Care,Debit Card,Pharmacy
+STU_2024_002,2024-01-19,30.0,Transportation,Cash,Bus Pass
+STU_2024_002,2024-01-20,800.0,Rent,Debit Card,Dormitory
+STU_2024_003,2024-01-01,1500.0,Rent,Credit Card,Luxury Apartment
+STU_2024_003,2024-01-02,85.6,Food & Dining,Digital Wallet,Fine Dining
+STU_2024_003,2024-01-03,29.99,Entertainment,Credit Card,Apple Music
+STU_2024_003,2024-01-04,50.0,Transportation,Cash,Lyft Premium
+STU_2024_003,2024-01-05,120.8,Utilities,Credit Card,Premium Internet
+STU_2024_003,2024-01-06,65.9,Food & Dining,Credit Card,Restaurant
+STU_2024_003,2024-01-07,300.0,Health,Credit Card,Personal Trainer
+STU_2024_003,2024-01-08,95.0,Personal Care,Credit Card,Spa
+STU_2024_003,2024-01-09,149.99,Entertainment,Digital Wallet,Gaming Console
+STU_2024_003,2024-01-10,45.0,Food & Dining,Cash,Coffee Shop
+STU_2024_003,2024-01-11,245.0,Academic Supplies,Credit Card,Laptop
+STU_2024_003,2024-01-12,75.0,Transportation,Cash,Rental Car
+STU_2024_003,2024-01-13,125.5,Food & Dining,Credit Card,Gourmet Store
+STU_2024_003,2024-01-14,200.0,Utilities,Credit Card,Premium Cable
+STU_2024_003,2024-01-15,85.0,Entertainment,Cash,Concert Tickets
+STU_2024_003,2024-01-16,95.4,Food & Dining,Digital Wallet,Food Delivery
+STU_2024_003,2024-01-17,450.0,Clothing,Credit Card,Designer Store
+STU_2024_003,2024-01-18,150.0,Personal Care,Credit Card,Salon
+STU_2024_003,2024-01-19,85.0,Transportation,Cash,Parking
+STU_2024_003,2024-01-20,1500.0,Rent,Credit Card,Luxury Apartment
+STU_2024_004,2024-01-01,600.0,Rent,Debit Card,Shared Apartment
+STU_2024_004,2024-01-02,15.3,Food & Dining,Cash,Home Cooking
+STU_2024_004,2024-01-03,9.99,Entertainment,Digital Wallet,YouTube Premium
+STU_2024_004,2024-01-04,5.0,Transportation,Cash,Biking
+STU_2024_004,2024-01-05,35.5,Utilities,Debit Card,Basic Internet
+STU_2024_004,2024-01-06,12.75,Food & Dining,Cash,Grocery Store
+STU_2024_004,2024-01-07,20.0,Health,Cash,Public Park
+STU_2024_004,2024-01-08,18.9,Personal Care,Debit Card,Drugstore
+STU_2024_004,2024-01-09,19.99,Entertainment,Credit Card,Hulu
+STU_2024_004,2024-01-10,8.5,Food & Dining,Cash,Coffee
+STU_2024_004,2024-01-11,45.99,Academic Supplies,Debit Card,Notebooks
+STU_2024_004,2024-01-12,15.0,Transportation,Cash,Walking
+STU_2024_004,2024-01-13,22.4,Food & Dining,Debit Card,Grocery Store
+STU_2024_004,2024-01-14,25.0,Utilities,Credit Card,Phone Bill
+STU_2024_004,2024-01-15,12.0,Entertainment,Cash,Library
+STU_2024_004,2024-01-16,18.6,Food & Dining,Cash,Home Cooking
+STU_2024_004,2024-01-17,35.0,Clothing,Debit Card,Thrift Store
+STU_2024_004,2024-01-18,12.0,Personal Care,Cash,Drugstore
+STU_2024_004,2024-01-19,10.0,Transportation,Cash,Biking
+STU_2024_004,2024-01-20,600.0,Rent,Debit Card,Shared Apartment
+STU_2024_005,2024-01-01,1000.0,Rent,Credit Card,Studio Apartment
+STU_2024_005,2024-01-02,55.3,Food & Dining,Digital Wallet,Restaurant
+STU_2024_005,2024-01-03,19.99,Entertainment,Credit Card,Netflix
+STU_2024_005,2024-01-04,25.0,Transportation,Cash,Uber
+STU_2024_005,2024-01-05,75.8,Utilities,Credit Card,Electric & Gas
+STU_2024_005,2024-01-06,35.9,Food & Dining,Debit Card,Grocery Store
+STU_2024_005,2024-01-07,120.0,Health,Digital Wallet,Insurance
+STU_2024_005,2024-01-08,45.0,Personal Care,Credit Card,Pharmacy
+STU_2024_005,2024-01-09,59.99,Entertainment,Digital Wallet,Amazon Prime
+STU_2024_005,2024-01-10,22.5,Food & Dining,Cash,Coffee Shop
+STU_2024_005,2024-01-11,125.99,Academic Supplies,Credit Card,Textbooks
+STU_2024_005,2024-01-12,35.0,Transportation,Cash,Bus Pass
+STU_2024_005,2024-01-13,65.5,Food & Dining,Digital Wallet,Food Delivery
+STU_2024_005,2024-01-14,85.0,Utilities,Debit Card,Internet & Phone
+STU_2024_005,2024-01-15,35.0,Entertainment,Cash,Movie Theater
+STU_2024_005,2024-01-16,45.4,Food & Dining,Debit Card,Restaurant
+STU_2024_005,2024-01-17,180.0,Clothing,Credit Card,Fashion Store
+STU_2024_005,2024-01-18,55.0,Personal Care,Credit Card,Beauty Store
+STU_2024_005,2024-01-19,45.0,Transportation,Cash,Gas Station
+STU_2024_005,2024-01-20,1000.0,Rent,Credit Card,Studio Apartment
