@@ -7,7 +7,7 @@ import os
 import pandas as pd
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-RAW_PATH = r"C:\Users\LENOVO\OneDrive\Desktop\DMW project\data\raw\student_personal_finance.csv"
+RAW_PATH = r"C:\Users\LENOVO\OneDrive\Desktop\DMW project\data\raw\comprehensive_student_finance.csv"
 OUTPUT_PATH = r"C:\Users\LENOVO\OneDrive\Desktop\DMW project\data\processed\ingested.csv"
 
 def load_data():

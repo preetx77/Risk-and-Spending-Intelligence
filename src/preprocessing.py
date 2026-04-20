@@ -9,7 +9,7 @@
 # ---------------------------------------------------------------- 
 
 import pandas as pd
-INPUT_PATH = r"c:\Users\LENOVO\OneDrive\Desktop\DMW project\data\raw\student_personal_finance.csv"
+INPUT_PATH = r"c:\Users\LENOVO\OneDrive\Desktop\DMW project\data\raw\comprehensive_student_finance.csv"
 OUTPUT_PATH = r"c:\Users\LENOVO\OneDrive\Desktop\DMW project\data\processed\cleaned.csv"
 
 def load_data():
