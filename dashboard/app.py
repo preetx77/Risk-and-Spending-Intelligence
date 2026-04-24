@@ -67,7 +67,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Data loading with caching
-@st.cache_data
+# @st.cache_data  # Temporarily disabled to refresh cluster data
 def load_data():
     """Load all processed datasets"""
     base_path = os.path.join(os.path.dirname(__file__), '..', 'data', 'processed')
@@ -476,17 +476,38 @@ elif page == "🎯 Cluster Analysis":
 elif page == "⚠️ Risk Detection":
     st.title("⚠️ Risk Detection & Anomaly Analysis")
     
-    # Calculate risk metrics
-    df_features['spending_percentile'] = df_features['total_spend'].rank(pct=True)
-    df_features['risk_score'] = (
-        df_features['spending_percentile'] * 0.6 +
-        (df_features['avg_spend'] / df_features['avg_spend'].max()) * 0.4
-    )
-    df_features['risk_level'] = pd.cut(
-        df_features['risk_score'],
-        bins=[0, 0.33, 0.66, 1.0],
+    # Import and run anomaly detector
+    import sys
+    sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'src'))
+    from anomaly_detector import TransactionAnomalyDetector
+    
+    # Load transaction data and run anomaly detection
+    df_transactions_full = pd.read_csv(os.path.join(os.path.dirname(__file__), '..', 'data', 'raw', 'comprehensive_student_finance_enhanced.csv'))
+    
+    # Run anomaly detection
+    detector = TransactionAnomalyDetector()
+    detector.fit(df_transactions_full)
+    anomaly_results = detector.analyze(df_transactions_full)
+    
+    # Aggregate risk scores by user
+    user_risk = anomaly_results.groupby('User_ID').agg({
+        'risk_score': 'max',
+        'Amount': 'sum',
+        'Date': 'count'
+    }).reset_index()
+    user_risk.columns = ['User_ID', 'risk_score', 'total_spend', 'transaction_count']
+    
+    # Calculate risk levels based on anomaly detection
+    user_risk['risk_level'] = pd.cut(
+        user_risk['risk_score'],
+        bins=[0, 0.3, 0.7, 1.0],
         labels=['Low', 'Medium', 'High']
     )
+    
+    # Merge with features
+    df_features = df_features.merge(user_risk[['User_ID', 'risk_score', 'risk_level']], on='User_ID', how='left')
+    df_features['risk_score'] = df_features['risk_score'].fillna(0)
+    df_features['risk_level'] = df_features['risk_level'].fillna('Low')
     
     # Risk overview
     col1, col2, col3 = st.columns(3)
@@ -564,17 +585,20 @@ elif page == "⚠️ Risk Detection":
     # Anomaly detection on transactions
     st.subheader("🔍 Transaction Anomalies")
     
-    # Calculate z-scores for amounts
-    df_transactions['amount_zscore'] = (
-        df_transactions['Amount'] - df_transactions['Amount'].mean()
-    ) / df_transactions['Amount'].std()
+    # Show actual anomaly detection results
+    high_risk_transactions = anomaly_results[anomaly_results['risk_level'] == 'High'].sort_values('risk_score', ascending=False)
     
-    anomalies = df_transactions[abs(df_transactions['amount_zscore']) > 2.5].sort_values('amount_zscore', ascending=False)
-    
-    if len(anomalies) > 0:
-        st.warning(f"Found {len(anomalies)} anomalous transactions (>2.5 std deviations)")
+    if len(high_risk_transactions) > 0:
+        st.warning(f"🚨 Found {len(high_risk_transactions)} high-risk anomalous transactions")
+        
+        # Format for display
+        display_anomalies = high_risk_transactions[['User_ID', 'Date', 'Amount', 'Category', 'Merchant', 'risk_score', 'explanation']].copy()
+        display_anomalies['Amount'] = display_anomalies['Amount'].apply(lambda x: f"₹{x:.2f}")
+        display_anomalies['risk_score'] = display_anomalies['risk_score'].apply(lambda x: f"{x:.2f}")
+        display_anomalies.columns = ['User ID', 'Date', 'Amount', 'Category', 'Merchant', 'Risk Score', 'Explanation']
+        
         st.dataframe(
-            anomalies[['User_ID', 'Date', 'Amount', 'Category', 'Merchant', 'amount_zscore']].head(15),
+            display_anomalies.head(15).style.background_gradient(subset=['Risk Score'], cmap='Reds'),
             use_container_width=True,
             hide_index=True
         )
