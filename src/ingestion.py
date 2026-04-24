@@ -1,17 +1,16 @@
-# load dataset (CSV / API)
-# standardized coloumns
-# output : data/raw / transaction.csv
+# PREET SONAR 
+# PRN : 20240802258
 # ----------------------------------------------------------------------------------
 
 import os
 import pandas as pd
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-RAW_PATH = r"C:\Users\LENOVO\OneDrive\Desktop\DMW project\data\raw\comprehensive_student_finance.csv"
-OUTPUT_PATH = r"C:\Users\LENOVO\OneDrive\Desktop\DMW project\data\processed\ingested.csv"
+RAWINPUT_PATH = "C:/Users/LENOVO/OneDrive/Desktop/DMW project/data/raw/comprehensive_student_finance_enhanced.csv"
+OUTPUT_PATH = "C:/Users/LENOVO/OneDrive/Desktop/DMW project/data/processed/ingested.csv"
 
 def load_data():
-    df = pd.read_csv(RAW_PATH)
+    df = pd.read_csv(RAWINPUT_PATH)
     return df
 
 def basic_inspection(df):

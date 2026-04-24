@@ -1,15 +1,9 @@
-# handle missing values 
-# remove duplicates 
-# convert data -- datetime
-# normalize amounts
-# enncode categories
-
-# input : raw data
-# output: data/processed/cleanned.csv
+# PREET SONAR 
+# PRN : 20240802258
 # ---------------------------------------------------------------- 
 
 import pandas as pd
-INPUT_PATH = r"c:\Users\LENOVO\OneDrive\Desktop\DMW project\data\raw\comprehensive_student_finance.csv"
+INPUT_PATH = r"c:\Users\LENOVO\OneDrive\Desktop\DMW project\data\raw\comprehensive_student_finance_enhanced.csv"
 OUTPUT_PATH = r"c:\Users\LENOVO\OneDrive\Desktop\DMW project\data\processed\cleaned.csv"
 
 def load_data():

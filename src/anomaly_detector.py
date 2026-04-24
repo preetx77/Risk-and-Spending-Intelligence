@@ -1,17 +1,5 @@
-"""
-Transaction Anomaly Detection System
-Detects fraudulent or unusual spending patterns using Isolation Forest
-
-
-ML-based fraud detection for personal spending
-    
-Detects:
-    - Unusually large transactions
-    - Transactions at odd times
-    - New/rare merchants
-    - Abnormal spending patterns
-    
-"""
+# PREET SONAR 
+# PRN : 20240802258
 
 import pandas as pd
 import numpy as np
@@ -98,7 +86,7 @@ class TransactionAnomalyDetector:
 # Usage example
 if __name__ == "__main__":
     # Load your data
-    df = pd.read_csv('data/raw/comprehensive_student_finance.csv')
+    df = pd.read_csv('data/raw/comprehensive_student_finance_enhanced.csv')
     
     # Train
     detector = TransactionAnomalyDetector()

@@ -1,3 +1,6 @@
+# PREET SONAR 
+# PRN : 20240802258
+
 import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
@@ -68,7 +71,7 @@ def main():
 
     # find_k(X_scaled)  # Run once to visually pick K, then comment out
 
-    labels = apply_kmeans(X_scaled, k=1)
+    labels = apply_kmeans(X_scaled, k=3)
     df = attach_cluster(df, labels)
     save_data(df)
     print("Clustering complete. Output saved.")
