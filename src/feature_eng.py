@@ -1,9 +1,5 @@
-# Monthly spend per user
-# Category wise spend %
-# Rolling averages
-# Transaction frequency
-# Avg spend per day
-# Output: feature matrix
+# PREET SONAR 
+# PRN : 20240802258
 
 import pandas as pd
 
