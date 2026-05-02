@@ -1,6 +1,7 @@
--- ============================================================================
 -- Student Finance Data Warehouse Schema
 -- Star Schema Design for OLAP Operations
+-- PREET SONAR 
+-- PRN : 20240802258
 -- ============================================================================
 
 -- Drop existing tables if they exist

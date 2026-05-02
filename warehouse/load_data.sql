@@ -1,11 +1,5 @@
--- ============================================================================
--- ETL Script: Load Data into Data Warehouse
--- Transforms processed CSV data into star schema
--- ============================================================================
-
--- ============================================================================
--- STEP 1: Load Dimension Tables
--- ============================================================================
+-- # PREET SONAR 
+-- # PRN : 20240802258
 
 -- Load dim_date
 INSERT INTO dim_date (date_id, full_date, year, month, month_name, day, weekday, weekday_name, is_weekend, quarter)
